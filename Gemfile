@@ -70,3 +70,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
+gem "figaro" 
+gem 'carrierwave', '~> 1.3.1'
+gem "fog-aws"
+gem "mini_magick"
