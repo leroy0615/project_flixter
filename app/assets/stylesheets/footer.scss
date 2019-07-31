@@ -1,3 +1,19 @@
+@import "bootstrap";
+
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
 #footer {
   position: relative;
   width: 100%;
@@ -16,4 +32,9 @@
 
 .social a:hover {
   text-decoration: none;
+}
+
+#footer a{
+	color:off-white;
+	font-weight: 100;
 }
