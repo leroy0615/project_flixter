@@ -41,4 +41,3 @@ class Instructor::SectionsController < ApplicationController
     params.require(:section).permit(:title, :row_order_position)
   end
 end 
-Save the file.
